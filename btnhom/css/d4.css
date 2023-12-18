@@ -1,0 +1,237 @@
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+    z-index: -1;
+}
+/* @keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} */
+.container:nth-child(1){
+    animation-delay: 0s;
+}
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+.container:nth-child(4){
+    animation-delay: 3s;
+}
+.container:nth-child(5){
+    animation-delay: 4s;
+}
+.text-box{
+    padding: 20px 30px;
+    background: #2b724f;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+}
+.left-container{
+    left: -102px;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px;
+}
+.timeline::before{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #2b724f;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+.text-box h2{
+    font-weight: 600; 
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #2b724f;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #2b724f;
+    left: -14px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.o-nho{
+    display: flex;
+}
+.o-nho .hinhanh img{
+    position: unset;
+    width: 240px;
+    height: 171px;
+    border-radius: unset;
+}
+.o-nho .vanbankem p{
+    margin: 0px;
+}
+.benphai{
+    padding-left: 0px;
+}
+.tieude-cacdiadiem{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 22px;
+    color: black;
+}
+@media (max-width: 1280px){
+    .timeline {
+        max-width: 1081px;
+    }
+}
+@media (max-width: 1024px){
+    .timeline {
+        max-width: 830px;
+    }
+    .o-nho {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .o-nho .vanbankem p {
+        margin: 0px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .o-nho .hinhanh{
+        margin: auto;
+    }
+    .right-container .text-box .o-nho{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .mySlides img{
+        width: 900px;
+        height: 300px;
+      }
+    .slideshow-container {
+        max-width: 900px;
+        position: relative;
+        margin: auto;
+    }
+}
+@media (max-width: 945px){
+    .timeline {
+        max-width: 720px;
+    }
+    .o-nho {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .o-nho .vanbankem p {
+        margin: 0px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .o-nho .hinhanh{
+        margin: auto;
+    }
+    .right-container .text-box .o-nho{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .mySlides img{
+        width: 600px;
+        height: 200px;
+      }
+    .slideshow-container {
+        max-width: 600px;
+        position: relative;
+        margin: auto 89px;
+    }
+}
+@media screen and (max-width: 600px){
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    }
+}
+.logo-bus-1{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  }

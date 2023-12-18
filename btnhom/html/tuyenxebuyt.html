@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lộ Trình</title>
+    <link rel="icon" type="image/x-icon" href="/img/Xe buýt.png">
+    <link href="/aos-master/aos-master/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/tuyenxebuyt.css">
+    <script src="/aos-master/aos-master/dist/aos.js"></script>
+    <noscript>
+        <style type="text/css">
+          [data-aos] {
+              opacity: 1 !important;
+              transform: translate(0) scale(1) !important;
+          }
+        </style>
+    </noscript>
+</head>
+<body>
+    <!--Phan dau-->
+    <header>
+        <div class="bus-tieude">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img src="/img/d4.jpg">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="/img/55.jpg">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="/img/56.jpg">
+                  <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="/img/38.jpg">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="/img/103.jpg">
+                    <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span>  
+            </div>
+        </div>
+    </header>
+    <div id="navbar" class="navbar">
+        <a class="active logo-bus-1" href="trangbia.html"><i class="fa fa-bus" aria-hidden="true"></i></a>
+        <a href="trangchu.html"><i class="fa fa-fw fa-home"></i>Trang Chủ</a> 
+        <a href="tuyenxebuyt.html"><i class="fa fa-fw fa-search"></i>Lộ Trình</a> 
+        <a href="giave-khunggio.html"><i class="fa fa-fw fa-envelope"></i>Giá Vé - Khung Giờ</a> 
+        <a href="form.html"><i class="fa fa-fw fa-user"></i>Đóng Góp/ Liên hệ</a>
+    </div>
+    <!--Phan than-->
+    <div class="timkiem" data-aos="zoom-in-down">
+        <input type="text" id="myInput" class="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+        <table id="myTable" class="table-1" data-aos="zoom-in-down">
+            <tr class="header" data-aos="zoom-in-down">
+                <th style="width:10%;" class="tieude-so-xe"><span class="tieu-de">Số Xe</span></th>
+                <th style="width:90%;" class="tieude-lotrinh"><span class="tieu-de">Lộ Trình</span></th>
+            </tr>
+            <tr class="nd" data-aos="fade-up"
+            data-aos-duration="3000">
+                <td class="so-xe"><a href="d4.html">D4</a></td>
+                <td class="xe-nd">
+                    <a href="d4.html">
+                        <p>
+                            <b>- Lượt đi:</b> Bến đầu cuối Grand Park - Phân khu Masteri - Tòa nhà S6.01 - Tòa nhà S5.03 - Tòa nhà S3.03 - 
+                            Tòa nhà S2.05 - Tòa nhà S2.01 - Tòa nhà S1.01 - Chợ Gò Công - UBND phường Long Thạnh Mỹ - Cao đẳng Cảnh sát nhân dân 2 
+                            - Trường Nguyễn Huệ - Trạm y tế Phường Long Thạnh Mỹ - Ngã ba Mỹ Thành (đường Nguyễn Văn Tăng) - Ngã ba Mỹ Thành (đường Lê Văn Việt) 
+                            - Saigon Hi-tech Park - Trường ĐH Nguyễn Tất Thành - Công ty Platel Vina - Tòa nhà Somerset - Diamond Island - Khu ĐT Sala 
+                            - Tr/tâm Quản lý điều hành giao thông đô thị - Chợ Dân Sinh - Sở Giao dịch chứng khoán - Trường Cao Thắng - Trạm Trung chuyển trên đường Hàm Nghi 
+                            - Khách sạn New World - Nguyễn Thị Nghĩa - Tôn Thất Tùng - Bến xe buýt Sài Gòn.
+                        </p>
+                        <p>
+                            <b>- Lượt về:</b> Bến xe buýt Sài Gòn - Tôn Thất Tùng - Nguyễn Thị Nghĩa - Trường THPT Ernst Thälmann - 
+                            Trạm trung chuyển Hàm Nghi - Bảo tàng Mỹ Thuật - Chợ Dân Sinh - Tr/tâm Qly điều hành giao thông đô thị - 
+                            Khu đô thị Sala - Diamond Island - UBND Thành phố Thủ Đức - Công ty Transimex - Công ty Mekophar - Đối diện Đại học Nguyễn Tất Thành 
+                            - Đối diện Saigon Hi-tech Park - Ngã ba Mỹ Thành (đường Lê Văn Việt) - Ngã ba Mỹ Thành (đường Nguyễn Văn Tăng) - Trạm y tế Phường Long 
+                            Thạnh Mỹ - Trường THPT Nguyễn Huệ - Cao đẳng Cảnh sát nhân dân 2 - UBND phường Long Thạnh Mỹ - Chợ Gò Công - Đối diện Tòa nhà S1.01 - 
+                            Đối diện Tòa nhà S2.05 - Đối diện Tòa nhà S3.03 - Đối diện Tòa nhà S5.01 - Đối diện Tòa nhà S6.06 - Phân khu Masteri - Bến đầu cuối Grand Park
+                        </p>
+                    </a>
+                </td>
+            </tr>
+            <tr class="nd" data-aos="fade-up"
+            data-aos-duration="3000">
+                <td class="so-xe"><a href="55.html">55</a></td>
+                <td class="xe-nd">
+                    <a href="55.html">
+                        <p>
+                            <b>- Lượt đi:</b> Công viên Phần mềm Quang Trung – Tô Ký – Quay đầu ngã ba Tân Chánh Hiệp 21 và Tô Ký – Quang Trung – Nguyễn Kiệm 
+                            – Hoàng Minh Giám – Đào Duy Anh – Hồ Văn Huê – Hoàng Văn Thụ – Phan Đăng Lưu – Bạch Đằng – Xô Viết Nghệ Tĩnh – Điện Biên Phủ 
+                            – Xa lộ Hà Nội – Quốc lộ 52 – Lê Văn Việt – Khu Công nghệ cao (quận 9).
+                        </p>
+                        <p>
+                            <b>- Lượt về:</b> Khu Công nghệ cao (quận 9) – Lê Văn Việt – Quốc lộ 52 – Xa lộ Hà Nội – Điện Biên Phủ – Xô Viết Nghệ Tĩnh 
+                            – Bạch Đằng – Phan Đăng Lưu – Nguyễn Kiệm – Nguyễn Thái Sơn – Phạm Ngũ Lão – Quang Trung – Tô Ký – Công viên Phần mềm Quang Trung.
+                        </p>
+                    </a>
+                </td>
+            </tr>
+            <tr class="nd" data-aos="fade-up"
+            data-aos-duration="3000">
+                <td class="so-xe"><a href="56.html">56</a></td>
+                <td class="xe-nd">
+                    <a href="56.html">
+                        <p>
+                            <b>- Lượt đi:</b> Bến xe buýt Chợ Lớn (bến A) - Lê Quang Sung - Nguyễn Hữu Thận - Tháp Mười - Hải Thượng Lãn Ông - Châu Văn 
+                            Liêm - Hồng Bàng - An Dương Vương - Nguyễn Văn Cừ - Nguyễn Trãi - Nguyễn Cư Trinh - Trần Hưng Đạo - Hàm Nghi - Hồ 
+                            Tùng Mậu - nhánh S2 - Tôn Đức Thắng - Nguyễn Hũu Cảnh - cầu Sài Gòn - xa lộ Hà Nội - Nguyễn Văn Bá - Đặng Văn Bi - 
+                            Võ Văn Ngân - ngã tư Thủ Đức - Lê Văn Việt - Hoàng Hữu Nam - đường 400 - quốc lộ 1 - đường 13 - bến xe Miền Đông mới.
+                        </p>
+                        <p>
+                            <b>- Lượt về:</b> Bến xe Miền Đông mới - đường 13 - Hoàng Hữu Nam - Lê Văn Việt - ngã tư Thủ Đức - Võ Văn Ngân - Đặng Văn Bi - Nguyễn 
+                            Văn Bá - ngã tư Bình Thái - xa lộ Hà Nội - cầu Sài Gòn - Điện Biên Phủ - Nguyễn Hữu Cảnh - Tôn Đức Thắng - Hàm Nghi 
+                            - Lê Lai - Phạm Hồng Thái - Nguyễn Thị Nghĩa - Nguyễn Thái Học - Trần Hưng Đạo - Nguyễn Cư Trinh - Nguyễn Trãi - 
+                            Nguyễn Văn Cừ - An Dương Vương - Nguyễn Tri Phương - Hùng Vương - Hồng Bàng - Châu Văn Liêm - Hải Thượng Lãn Ông - Lê 
+                            Quang Sung - Trang Tử - bến xe buýt Chợ Lớn (bến A).
+                        </p>
+                    </a>
+                </td>
+            </tr>
+            <tr class="nd" data-aos="fade-up"
+            data-aos-duration="3000">
+                <td class="so-xe"><a href="38.html">38</a></td>
+                <td class="xe-nd">
+                    <a href="38.html">
+                        <p>
+                            <b>- Lượt đi:</b> Khu dân cư Tân Quy (Q.7) - Nguyễn Thị Thập - Lê Văn Lương - Đường số 15 - Nguyễn Hữu Thọ - cầu Kênh Tẻ - Khánh 
+                            Hội - Hoàng Diệu - cầu Calmette – Calmette – Võ Văn Kiệt - Pasteur – Hàm Nghi - vòng xoay Bến Thành – Lê Lai – Phạm Hồng 
+                            Thái - Cách Mạng Tháng Tám - Nguyễn Thị Minh Khai - Nguyễn Văn Cừ - An Dương Vương - Sư Vạn Hạnh - Lý Thái Tổ - Thành Thái 
+                            - Tô Hiến Thành - Lữ Gia - Nguyễn Thị Nhỏ - Âu Cơ - Lạc Long Quân - Hòa Bình - Bến Đầm Sen.
+                        </p>
+                        <p>
+                            <b>- Lượt về:</b> Bến Đầm Sen - Hòa Bình - Lạc Long Quân - Âu Cơ - Nguyễn Thị Nhỏ - Lữ Gia - Tô Hiến Thành - Thành Thái - đường 3/2 - Lý Thái 
+                            Tổ - Sư Vạn Hạnh - An Dương Vương - Nguyễn Văn Cừ - Nguyễn Thị Minh Khai - Cách Mạng Tháng Tám - Nguyễn Thị Nghĩa – Nguyễn 
+                            Thái Học– Trần Hưng Đạo – Hàm Nghi– Nguyễn Thái Bình – Calmette – cầu Calmette - Hoàng Diệu - Khánh Hội - cầu Kênh Tẻ - 
+                            Nguyễn Hữu Thọ - Đường số 15 - Lê Văn Lương - Nguyễn Thị Thập - Khu dân cư Tân Quy (Quận 7).
+                        </p>
+                    </a>
+                </td>
+            </tr>
+            <tr class="nd" data-aos="fade-up"
+            data-aos-duration="3000">
+                <td class="so-xe-5"><a href="103.html">103</a></td>
+                <td class="xe-nd-5">
+                    <a href="103.html">
+                        <p>
+                            <b>- Lượt đi:</b> Bến xe buýt Chợ Lớn (khu A) – đường Lê Quang Sung – đường Nguyễn Thị Nhỏ – đường Hồng Bàng – đường Tạ Uyên 
+                            – Đường 3/2 – đường Lý Thường Kiệt – đường Tô Hiến Thành – đường Thành Thái nối dài – đường Tam Đảo – đường Đồng Nai 
+                            – đường Trường Sơn – đường Cách Mạng Tháng 8 – đường Hoàng Văn Thụ – đường Phan Đình Giót – đường Trường Sơn – đường Hồng 
+                            Hà – Vòng Xoay – đường Nguyễn Thái Sơn – đường Phạm Ngũ Lão – đường Quang Trung – đường Lê Văn Thọ – đường Lê Đức Thọ 
+                            – Quốc Lộ 1A – Đường Nội Bộ KDC Nam Long – đường Hà Huy Giáp – Đường Vòng Chân Cầu Vượt – Quốc Lộ 1A – Bến xe ngã tư Ga.
+                        </p>
+                        <p>
+                            <b>- Lượt về:</b> Bến xe ngã tư Ga – Quốc lộ 1A – đường Lê Đức Thọ – đường Lê Văn Thọ – đường Quang Trung – đường Nguyễn Kiệm 
+                            – Vòng Xoay – đường Bạch Đằng – đường Trường Sơn – đường Trần Quốc Hoàn – đường Hoàng Văn Thụ – đường Xuân Diệu – đường 
+                            Xuân Hồng – đường Trường Chinh – đường Cách Mạng Tháng 8 – đường Trường Sơn – đường Đồng Nai – đường Tam Đảo – đường Thành 
+                            Thái nối dài – đường Tô Hiến Thành – đường Lý Thường Kiệt – Đường 3/2 – đường Tạ Uyên – đường Phú Hữu – Bến xe buýt Chợ Lớn 
+                            (khu A).
+                        </p>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--Phan ket-->
+    <footer class="footer-ket">
+        <a href="https://www.facebook.com/" target="_blank"><img class="img-1" src="/img/facebook.png" alt=""></a>
+        <a href="https://twitter.com/?lang=vi" target="_blank"><img class="img-1" src="/img/twitter.png" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img class="img-2" src="/img/youtube.png" alt=""></a>
+    </footer>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    } else {
+                    tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+    </script>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="scripts/aos.js?ver=1.2.0"></script>
+</body>
+</html>

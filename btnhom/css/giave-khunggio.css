@@ -1,0 +1,294 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.mySlides img{
+  width: 1100px;
+  height: 400px;
+}
+p{
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#navbar {
+  background-color: limegreen;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.footer-ket{
+  background-color: darkgreen;
+  text-align: center;
+  height: 50px;
+  top: 20px;
+  padding-top: 30px;
+}
+.footer-ket a .img-1{
+    margin-right: 20px;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  font-size: 16px;
+  width: 200px;
+  text-align: left;
+  float: right;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  flex-direction: row;
+  margin-right: -155px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+#myTable {
+  font-size: 16px;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin: 85px 51px 50px 158px;
+  border: 1px solid green;
+  border-collapse: collapse;
+}
+
+#myTable th, .myTable td {
+  text-align: left;
+  padding: 12px;
+}
+#myTable tr.header{
+  background-color: #63ca00;
+}
+#myTable th{
+  text-align: center;
+}
+#myTable .tieude-bang:hover {
+  background-color: #f1f1f1;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: darkgreen;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.timkiem{
+  width: 1200px;
+}
+
+@media (max-width: 1280px){
+  #myInput{
+    width: 200px;
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: 0px;
+    float: right;
+    margin-right: 42px;
+    border-color: green;
+    border-radius: 10px;
+  }
+  #myTable{
+    width: 1044px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 85px 115px 100px 120px;
+  }
+}
+@media (max-width: 1024px){
+  #myInput{
+    width: 200px;
+    text-align: left;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    margin-right: 0px;
+    float: right;
+    margin-right: 242px;
+    border-color: green;
+    border-radius: 10px;
+  }
+  #myTable{
+    font-size: 12px;
+    width: 900px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 85px 63px 80px 61px;
+  }
+  .mySlides img{
+    width: 900px;
+    height: 300px;
+  }
+  .slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+  }
+}
+@media (max-width: 820px){
+  #myInput{
+    width: 152px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    float: right;
+    margin-right: 110px;
+    border-color: green;
+    border-radius: 10px;
+  }
+  #myTable{
+    font-size: 10px;
+    width: 694px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 85px 42px 80px 53px;
+  }
+  .mySlides img{
+    width: 600px;
+    height: 200px;
+  }
+  .slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto 89px;
+  }
+}
+.logo-bus-1{
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.so-xe, .so-xe-0{
+  border-right: 1px solid green;
+}
+.tieude-bang, .tieude-bang-1{
+  border-bottom: 1px solid green;
+}
+.giave{
+  border-right: 1px solid green;
+  width: 210px;
+  line-height: 30px;
+}
+.so-xe{
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
+.thoigian{
+  font-size: 20px;
+  font-weight: bold;
+}

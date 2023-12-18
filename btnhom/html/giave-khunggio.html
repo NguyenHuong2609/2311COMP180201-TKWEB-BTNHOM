@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Giá vé - Khung giờ</title>
+    <link rel="stylesheet" href="/css/giave-khunggio.css">
+    <link rel="shortcut icon" href="/img/logo.png"/>
+    <style>
+    
+    .card {
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(178, 178, 178);
+        width:50px;
+        font-size: smaller;
+        margin-inline-start: 3px;
+        margin-inline-end: 3px;
+        margin:1px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .card:hover {
+        background-color: rgb(117, 230, 112);
+    }
+    </style>
+</head>
+
+<body>
+    <!--Phan dau-->
+    <header>
+        <div class="bus-tieude">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img src="/img/d4.jpg">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img src="/img/55.jpg">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img src="/img/56.jpg">
+                  <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="/img/38.jpg">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="/img/103.jpg">
+                    <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span>  
+            </div>
+        </div>
+    </header>
+    <div id="navbar" class="navbar">
+        <a class="active logo-bus-1" href="trangbia.html"><i class="fa fa-bus" aria-hidden="true"></i></a>
+        <a href="trangchu.html"><i class="fa fa-fw fa-home"></i>Trang Chủ</a> 
+        <a href="tuyenxebuyt.html"><i class="fa fa-fw fa-search"></i>Lộ Trình</a> 
+        <a href="giave-khunggio.html"><i class="fa fa-fw fa-envelope"></i>Giá Vé - Khung Giờ</a> 
+        <a href="form.html"><i class="fa fa-fw fa-user"></i>Đóng Góp/ Liên hệ</a>
+    </div>
+    <!--Phan than-->
+    <div class="timkiem">
+        <table id="myTable">
+            <tr class="header tieude-bang-1">
+                <th class="so-xe-0" style="width:10%; font-size: 18px;">Số Xe</th>
+                <th style="width:90%; font-size: 18px;">Giá vé - khung giờ</th>
+            </tr>
+            <tr class="tieude-bang">
+                <td class="so-xe">D4</td>
+                <td>
+                    <p>
+                        <table class="myTable">
+                            <tr>
+                                <td class="giave">
+                                    <b>Giá vé: </b><ul style="list-style-type: circle; margin-top: -0px;"> 
+                                        <li>Thường: 7 000 đ</li>
+                                        <li>HS/SV: 3 000 đ</li>
+                                        <li>Vé tập: 158 000 đ/30 vé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <!--Đi-->
+                                    <strong>
+                                        <p class="thoigian">Thời gian hoạt động: 5h00 - 21h30 <br></p>
+                                        <p>Lượt đi</p>
+                                    </strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>7:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:40</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>12:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:15</p>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p>19:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:55</p>
+                                    </div>
+
+                                    <!--Về-->
+
+                                    <strong><p>Lượt về</p></strong>
+                                    <div class="card">
+                                        <p>5:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>10:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:05</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>17:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:45</p>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p>20:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>21:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>21:25</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tieude-bang">
+                <td class="so-xe">55</td>
+                <td>
+                    <p>
+                        <table class="myTable">
+                            <tr>
+                                <td class="giave">
+                                    <b>Giá vé: </b><ul style="list-style-type: circle; margin-top: -0px;"> 
+                                        <li>Thường: 7 000 đ</li>
+                                        <li>HS/SV: 3 000 đ</li>
+                                        <li>Vé tập: 158 000 đ/30 vé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <!--Đi-->
+                                    <strong>
+                                        <p class="thoigian">Thời gian hoạt động: 5h00 - 19h00 <br></p>
+                                        <p>Lượt đi</p>
+                                    </strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>7:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:40</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>12:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+
+                                    <!--Về-->
+
+                                    <strong><p>Lượt về</p></strong>
+                                    <div class="card">
+                                        <p>5:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>10:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:05</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>17:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tieude-bang">
+                <td class="so-xe">56</td>
+                <td>
+                    <p>
+                        <table class="myTable">
+                            <tr>
+                                <td class="giave">
+                                    <b>Giá vé: </b><ul style="list-style-type: circle; margin-top: -0px;"> 
+                                        <li>Thường: 7 000 đ</li>
+                                        <li>HS/SV: 3 000 đ</li>
+                                        <li>Vé tập: 158 000 đ/30 vé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <!--Đi-->
+                                    <strong>
+                                        <p class="thoigian">Thời gian hoạt động: 5h00 - 21h00 <br></p>
+                                        <p>Lượt đi</p>
+                                    </strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>7:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:40</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>12:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:15</p>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p>19:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:48</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>21:00</p>
+                                    </div>
+
+                                    <!--Về-->
+
+                                    <strong><p>Lượt về</p></strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:25</p>
+                                    </div>
+
+
+                                    <div class="card">
+                                        <p>5:38</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:52</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>10:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:05</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>17:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:45</p>
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p>20:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>20:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>21:00</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tieude-bang">
+                <td class="so-xe">38</td>
+                <td>
+                    <p>
+                        <table class="myTable">
+                            <tr>
+                                <td class="giave">
+                                    <b>Giá vé: </b><ul style="list-style-type: circle; margin-top: -0px;"> 
+                                        <li>Thường: 6 000 đ</li>
+                                        <li>HS/SV: 3 000 đ</li>
+                                        <li>Vé tập: 135 000 đ/30 vé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <!--Đi-->
+                                    <strong>
+                                        <p class="thoigian">Thời gian hoạt động: 5h15 - 19h00 <br></p>
+                                        <p>Lượt đi</p>
+                                    </strong>
+                                    <div class="card">
+                                        <p>5:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:29</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:43</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>7:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:40</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>12:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+                                    <!--Về-->
+
+                                    <strong><p>Lượt về</p></strong>
+                                    <div class="card">
+                                        <p>5:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:29</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:43</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:52</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>10:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:05</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>17:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="so-xe">103</td>
+                <td>
+                    <p>
+                        <table class="myTable">
+                            <tr>
+                                <td class="giave">
+                                    <b>Giá vé: </b><ul style="list-style-type: circle; margin-top: -0px;"> 
+                                        <li>Thường: 6 000 đ</li>
+                                        <li>HS/SV: 3 000 đ</li>
+                                        <li>Vé tập: 135 000 đ/30 vé</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <!--Đi-->
+                                    <strong>
+                                        <p class="thoigian">Thời gian hoạt động: 5h00 - 19h00 <br></p>
+                                        <p>Lượt đi</p>
+                                    </strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>7:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:40</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>12:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:20</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:35</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:48</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+                                    <!--Về-->
+
+                                    <strong><p>Lượt về</p></strong>
+                                    <div class="card">
+                                        <p>5:00</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:18</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:36</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>5:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:02</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>6:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>6:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>7:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>8:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>8:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:00</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>9:15</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>9:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:10</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>10:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>10:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>11:30</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>11:50</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:30</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>12:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>13:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:20</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:35</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>13:50</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>14:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>14:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:05</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>15:25</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>15:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:05</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>16:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>16:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>17:40</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>17:55</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:10</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>18:25</p>
+                                    </div>
+
+                                    <div class="card">
+                                        <p>18:45</p>
+                                    </div>
+                                    <div class="card">
+                                        <p>19:00</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--Phan ket-->
+    <footer class="footer-ket">
+        <a href="https://www.facebook.com/" target="_blank"><img class="img-1" src="/img/facebook.png" alt=""></a>
+        <a href="https://twitter.com/?lang=vi" target="_blank"><img class="img-1" src="/img/twitter.png" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img class="img-2" src="/img/youtube.png" alt=""></a>
+    </footer>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                    } else {
+                    tr[i].style.display = "none";
+                    }
+                }       
+            }
+        }
+    </script>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
